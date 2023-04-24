@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulsameeh-portflio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/cfe41459cf.js" crossorigin="anonymous"></script>
+    
+   
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/bg remove logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servies">service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-solid fa-plus" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-regular fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Frontend developer</p>
+                <h1>Hai, I'm <span>Abdul</span> <br> Sameeh</h1>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--This is about section-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2023-04-04 at 1.04.01 AM.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Determined web developer having years of experience in developing and planing of web project in a fast-paced environment. Having a detailed Knowledge of programming aspect with interpersonal, communicatative nature. </p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web design</span><br>Designing web interface</li>
+                            <li><span>Web development</span><br> Web app development</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - present</span><br> Freelance web developer</li>
+                            <li><span>2021 - 2022</span><br>Junior web developer - Panda ads</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017 - 2020</span><br>Completed Bachelor degree -  BA Multimedia <br>JDT Islam college of arts and science</li>
+                            <li><span>2015 - 2017</span><br> completed higher secondary - Science <br>Madrasathul Muhammadiya Higher Secondary School </li>
+                            <li><span>2015</span><br> completed  SSLC <br>Himayathul Islam Higher Secondary School </li>
+                           
+                        </ul>
+                    </div>
+                    <a href="images/my-cv.pdf" class="btn btn2" download="">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--This is service section-->
+
+
+    <div id="servies">
+        <div class="container">
+            <h1 class="subtitle">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class=" fa fa-solid fa-user"></i>
+                    <h2>Web Development</h2>
+                    <p>As a developer, I can creata your website more interactive using web technologies</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>creating the design and layout of a website or web pages which combine text with sounds, pictures, graphics and video clips.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-bezier-curve"></i>
+                    <h2>Graphic Design</h2>
+                    <p>create visual content in both print and digital form. They might work on advertisements, digital media, web or app design</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------This is the portfolio section------------>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/netflix.jpg" alt="">
+                    <div class="layer">
+                        <h3>Netflix clone app</h3>
+                        <p>Build the exact clone of netflix application interface using react.js</p>
+                        <a href="https://clone-netflix-c4947.web.app/"><i class="fa fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/book img.jpg" alt="">
+                    <div class="layer">
+                        <h3>Digital library</h3>
+                        <p>Build a website where people can create, edit, delete, display, and search for
+                            books and authors</p>
+                        <a href="https://digital-library-khnq.onrender.com/"><i class="fa fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/abjar-bg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Abjar Branding</h3>
+                        <p>Created a web application for the famous advertising copmany in Dubai,UAE</p>
+                        <a href="https://abjarbranding.com/"><i class="fa fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pandaimg.jpg" alt="">
+                    <div class="layer">
+                        <h3>Panda ads</h3>
+                        <p>Created a web application for panda ads a branding and advertsing company in calicut, Kerala </p>
+                        <a href="https://pandaads.in/"><i class="fa fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/aghadeer.jpg" alt="">
+                    <div class="layer">
+                        <h3>Aghadeer Restaurant</h3>
+                        <p>Developer a static website for a restaurant in UAE</p>
+                        <a href="https://aghadeer.ae/"><i class="fa fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <!-----This is the contact section----->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa fa-sharp fa-solid fa-paper-plane"></i> abdulsameehpm2525@gmail.com</p>
+                    <p><i class="fa fa-solid fa-phone"></i> +971 527088635</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abdulsameeho/"><i class="fa fab-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/abdulsameeho"><i class="fa fab-brands fa-github"></i></a>
+                        <a href="https://twitter.com/_abdulsameeh"><i class="fa fab-brands fa-twitter"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 All right reserved | abdulsameeh</p>
+        </div>
+    </div>
+    
+    
+<script src="script.js"></script>
+</body>
+</html>
